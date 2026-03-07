@@ -38,11 +38,14 @@ nav a{
 }
 
 .item img{
-  width:200px;
+  max-width:100%; 
+  height:auto;
   border-radius:10px;
+  display:block;
 }
 
 footer{
   text-align:center;
   padding:20px;
+
 }
