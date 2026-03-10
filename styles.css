@@ -109,23 +109,23 @@ nav a.active {
   text-align: center;
 }
 
-.contact h1 {
+.contact .item h1 {
   margin-bottom: 20px;
   color: #222;
 }
 
-.contact p {
+.contact .item p {
   margin: 10px 0;
   font-size: 1.1em;
 }
 
-.contact a {
+.contact .item a {
   color: #ff4d4d;
   text-decoration: none;
   font-weight: bold;
 }
 
-.contact a:hover {
+.contact .item a:hover {
   text-decoration: underline;
 }
 
@@ -150,6 +150,7 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
