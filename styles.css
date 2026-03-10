@@ -129,6 +129,28 @@ nav a.active {
   text-decoration: underline;
 }
 
+/* About Section */
+.about {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -150,6 +172,7 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
