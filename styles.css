@@ -65,7 +65,7 @@ nav a.active {
   padding: 40px 20px;
 }
 
-.item {
+.about {
   background-color: #fff;
   padding: 20px;
   width: 250px;
@@ -75,7 +75,7 @@ nav a.active {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.item:hover {
+.contact:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -118,4 +118,5 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
