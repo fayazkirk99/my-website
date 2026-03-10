@@ -81,7 +81,7 @@ nav a.active {
 }
 
 .shop .item img {
-  max-width: 100%;
+  max-width: 15PX;
   height: auto;
   border-radius: 5px;
 }
@@ -118,3 +118,4 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
