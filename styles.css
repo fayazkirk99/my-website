@@ -50,13 +50,13 @@ nav a:hover {
   border-radius: 5px;
 }
 
-/* Highlight current page (optional) */
+/* Highlight current page */
 nav a.active {
   background-color: #ff4d4d;
   border-radius: 5px;
 }
 
-/* Products Section */
+/* Shop / Products Section */
 .shop {
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +65,7 @@ nav a.active {
   padding: 40px 20px;
 }
 
-.about {
+.shop .item {
   background-color: #fff;
   padding: 20px;
   width: 250px;
@@ -75,30 +75,30 @@ nav a.active {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.item:hover {
+.shop .item:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.item img {
+.shop .item img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
 
-.item h3 {
+.shop .item h3 {
   margin: 15px 0 5px 0;
   font-size: 1.1em;
 }
 
-.item p {
+.shop .item p {
   color: #444;
   font-weight: bold;
   font-size: 1em;
 }
 
 /* Footer */
-contact {
+footer {
   text-align: center;
   padding: 25px;
   background-color: #222;
@@ -108,7 +108,7 @@ contact {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .products {
+  .shop {
     flex-direction: column;
     align-items: center;
   }
@@ -118,6 +118,3 @@ contact {
     border-top: 1px solid #444;
   }
 }
-
-
-
