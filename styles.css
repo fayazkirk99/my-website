@@ -97,6 +97,13 @@ nav a.active {
   font-size: 1em;
 }
 
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
 /* Footer */
 footer {
   text-align: center;
@@ -118,4 +125,5 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
