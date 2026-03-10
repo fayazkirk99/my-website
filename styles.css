@@ -56,9 +56,6 @@ nav a.active {
   border-radius: 5px;
 }
 
-.item {
-  max-width:5PX;
-}
 
 /* Shop / Products Section */
 .shop {
@@ -138,6 +135,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
