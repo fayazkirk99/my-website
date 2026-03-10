@@ -57,7 +57,7 @@ nav a.active {
 }
 
 /* Products Section */
-.products {
+.shop {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -118,3 +118,4 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
