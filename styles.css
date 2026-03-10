@@ -97,6 +97,37 @@ nav a.active {
   font-size: 1em;
 }
 
+/* Contact Section */
+
+.contact {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.contact a {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
 
 /* Footer */
 footer {
@@ -119,6 +150,7 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
