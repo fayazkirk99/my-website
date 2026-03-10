@@ -104,6 +104,17 @@ nav a.active {
   gap: 30px;
   padding: 40px 20px;
 }
+
+.about .item {
+  background-color: #fff;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -125,5 +136,6 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
