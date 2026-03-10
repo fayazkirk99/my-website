@@ -86,7 +86,7 @@ nav a.active {
   border-radius: 5px;
 }
 
-.shop .item h3 {
+.shop .item h1 {
   margin: 15px 0 5px 0;
   font-size: 1.1em;
 }
@@ -109,7 +109,7 @@ nav a.active {
   text-align: center;
 }
 
-.contact h2 {
+.contact h1 {
   margin-bottom: 20px;
   color: #222;
 }
@@ -150,6 +150,7 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
