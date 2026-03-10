@@ -75,7 +75,7 @@ nav a.active {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.contact:hover {
+.item:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -98,7 +98,7 @@ nav a.active {
 }
 
 /* Footer */
-footer {
+contact {
   text-align: center;
   padding: 25px;
   background-color: #222;
@@ -118,5 +118,6 @@ footer {
     border-top: 1px solid #444;
   }
 }
+
 
 
