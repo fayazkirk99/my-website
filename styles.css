@@ -59,13 +59,13 @@ nav a.active {
 
 /* Shop / Products Section */
 .shop {
-  max-width: 800px;
+  display: flex;
+  justify-content: center;   /* centers items */
+  align-items: center;
+  gap: 30px;                 /* space between products */
+  flex-wrap: wrap;           /* allows wrapping on phones */
+  max-width: 900px;
   margin: 50px auto;
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  text-align: center;
 }
 
 .shop h1 {
@@ -156,6 +156,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
