@@ -79,6 +79,34 @@ nav a.active {
   color: #555;
 }
 
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Product card */
+.item {
+  background-color: #fff;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.item:hover img {
+  transform: scale(1.05);
+}
 
 /* About Section */
 .about {
@@ -135,6 +163,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
