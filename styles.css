@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #666;
   border-radius: 5px;
 }
 
@@ -77,13 +77,6 @@ nav a.active {
   font-size: 1.1em;
   line-height: 1.6;
   color: #555;
-}
-
-.shop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
 }
 
 /* Product card */
@@ -163,6 +156,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
