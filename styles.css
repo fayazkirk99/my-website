@@ -68,12 +68,12 @@ nav a.active {
   margin: 50px auto;
 }
 
-.shop h1 {
+.shop1 h1 {
   margin-bottom: 20px;
   color: #222;
 }
 
-.shop p {
+.shop1 p {
   font-size: 1.1em;
   line-height: 1.6;
   color: #555;
@@ -156,6 +156,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
