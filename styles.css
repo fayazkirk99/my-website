@@ -32,7 +32,7 @@ header p {
 /* Navigation Bar */
 nav {
   text-align: center;
-  background-color: #222;
+  background-color: #444;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #666;
+  background-color: #111;
   border-radius: 5px;
 }
 
@@ -156,6 +156,7 @@ nav a.active {
     border-top: 1px solid #444;
   }
 }
+
 
 
 
